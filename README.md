@@ -2,7 +2,7 @@
 
 | Name |NIM  |
 |--|--|
-| Adidnda Hashina |  |
+| Adidnda Hashina | 18104026 |
 | Febry Ardiansyah | 18104009 |
 | Jahfal Rizqi | 18104014 |
 
