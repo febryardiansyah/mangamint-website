@@ -39,7 +39,7 @@ function DetailPage() {
     );
   }
   return (
-    <Container className="mt-3 mb-3" id="detail">
+    <Container className="mt-3 mb-3" id="detail" style={{minHeight: "100vh",}}>
       <Row>
         <Col md={4}>
           <Image id="img-banner" src={data.thumb} />

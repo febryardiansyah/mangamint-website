@@ -19,10 +19,18 @@ function SearchResultPage() {
         console.log(err);
       });
   }, [query]);
+  console.log(query);
+  if (!query) {
+    return (
+      <Container style={{ minHeight: "100vh" }}>
+        
+      </Container>
+    );
+  }
 
   if (state.loading) {
     return (
-      <Container style={{ height: "100vh" }}>
+      <Container style={{ minHeight: "100vh" }}>
         <center>
           <Spinner animation="grow"></Spinner>
         </center>
@@ -31,7 +39,7 @@ function SearchResultPage() {
   }
   if (state.mangaList.length === 0) {
     return (
-      <Container style={{ height: "100vh" }}>
+      <Container style={{ minHeight: "100vh" }}>
         <center>
           <h2>{`${query} not found`}</h2>
         </center>

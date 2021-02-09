@@ -18,6 +18,7 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Redirect from="/all/page/1" to="/all"></Redirect>
+          {/* <Redirect from="/search" to="/search/:query"></Redirect> */}
           <Route path="/" exact component={HomePage} />
           <Route path="/detail/:id" component={DetailPage} />
           <Route path="/chapter/:id" component={ChapterPage} />
