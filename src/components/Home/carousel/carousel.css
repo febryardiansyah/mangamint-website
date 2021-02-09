@@ -1,0 +1,13 @@
+#img-item{
+    border-radius: 5%;
+}
+.parent{
+    border-radius: 25px;
+    background: black;
+    padding: 5px;
+    opacity: 70%;
+    position: relative;
+}
+#img-title{
+    color: #E8505B
+}
